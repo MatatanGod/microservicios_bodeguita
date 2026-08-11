@@ -9,7 +9,7 @@ import org.mapstruct.Mapping;
 public interface ProductoMapper {
 
     @Mapping(target = "idProducto", ignore = true)
-    @Mapping(target = "categoria", ignore = true)   // se asigna a mano en el service (viene por id)
+    @Mapping(target = "categoria", ignore = true)   // se asigna a mano en el com.bodeguita.ms_producto.service (viene por id)
     @Mapping(target = "proveedor", ignore = true)   // idem
     Producto toEntity(ProductoRequest request);
 

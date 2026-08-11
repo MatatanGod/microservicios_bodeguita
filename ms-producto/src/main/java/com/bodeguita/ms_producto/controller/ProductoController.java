@@ -1,4 +1,4 @@
-package com.bodeguita.producto.controller;
+package com.bodeguita.ms_producto.controller;
 
 import com.bodeguita.producto.model.dto.ProductoRequest;
 import com.bodeguita.producto.model.dto.ProductoResponse;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/productos")
+@RequestMapping("/v1/productos")
 @RequiredArgsConstructor
 public class ProductoController {
 

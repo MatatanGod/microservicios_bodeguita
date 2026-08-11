@@ -1,4 +1,4 @@
-package com.bodeguita.producto.model.entity;
+package com.bodeguita.ms_producto.model.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
