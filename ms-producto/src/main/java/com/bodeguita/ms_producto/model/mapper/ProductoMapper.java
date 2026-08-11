@@ -1,7 +1,7 @@
-package com.bodeguita.producto.model.mapper;
+package com.bodeguita.ms_producto.model.mapper;
 
-import com.bodeguita.producto.model.dto.*;
-import com.bodeguita.producto.model.entity.*;
+import com.bodeguita.ms_producto.model.dto.*;
+import com.bodeguita.ms_producto.model.entity.*;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

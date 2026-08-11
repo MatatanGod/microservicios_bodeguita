@@ -1,7 +1,7 @@
-package com.bodeguita.producto.service;
+package com.bodeguita.ms_producto.service;
 
-import com.bodeguita.producto.model.dto.ProductoRequest;
-import com.bodeguita.producto.model.dto.ProductoResponse;
+import com.bodeguita.ms_producto.model.dto.ProductoRequest;
+import com.bodeguita.ms_producto.model.dto.ProductoResponse;
 import java.util.List;
 
 public interface ProductoService {

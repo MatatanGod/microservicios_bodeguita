@@ -1,8 +1,8 @@
-package com.bodeguita.producto.controller;
+package com.bodeguita.ms_producto.controller;
 
-import com.bodeguita.producto.model.dto.ProductoRequest;
-import com.bodeguita.producto.model.dto.ProductoResponse;
-import com.bodeguita.producto.service.ProductoService;
+import com.bodeguita.ms_producto.model.dto.ProductoRequest;
+import com.bodeguita.ms_producto.model.dto.ProductoResponse;
+import com.bodeguita.ms_producto.service.ProductoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

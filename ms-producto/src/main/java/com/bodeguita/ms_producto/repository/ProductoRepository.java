@@ -1,6 +1,6 @@
-package com.bodeguita.producto.repository;
+package com.bodeguita.ms_producto.repository;
 
-import com.bodeguita.producto.model.entity.Producto;
+import com.bodeguita.ms_producto.model.entity.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
