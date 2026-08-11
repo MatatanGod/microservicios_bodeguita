@@ -1,0 +1,9 @@
+package com.bodeguita.producto.model.dto;
+
+import lombok.*;
+
+@Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
+public class CategoriaResponse {
+    private Integer idCategoria;
+    private String nombreCategoria;
+}
