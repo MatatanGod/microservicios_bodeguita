@@ -1,4 +1,4 @@
-package com.bodeguita.producto.model.dto;
+package com.bodeguita.ms_producto.model.dto;
 
 import lombok.*;
 

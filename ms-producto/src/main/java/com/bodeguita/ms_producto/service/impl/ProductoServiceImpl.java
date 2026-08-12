@@ -1,15 +1,15 @@
-package com.bodeguita.producto.service.impl;
+package com.bodeguita.ms_producto.service.impl;
 
-import com.bodeguita.producto.model.dto.ProductoRequest;
-import com.bodeguita.producto.model.dto.ProductoResponse;
-import com.bodeguita.producto.model.entity.Categoria;
-import com.bodeguita.producto.model.entity.Producto;
-import com.bodeguita.producto.model.entity.Proveedor;
-import com.bodeguita.producto.model.mapper.ProductoMapper;
-import com.bodeguita.producto.repository.CategoriaRepository;
-import com.bodeguita.producto.repository.ProductoRepository;
-import com.bodeguita.producto.repository.ProveedorRepository;
-import com.bodeguita.producto.service.ProductoService;
+import com.bodeguita.ms_producto.model.dto.ProductoRequest;
+import com.bodeguita.ms_producto.model.dto.ProductoResponse;
+import com.bodeguita.ms_producto.model.entity.Categoria;
+import com.bodeguita.ms_producto.model.entity.Producto;
+import com.bodeguita.ms_producto.model.entity.Proveedor;
+import com.bodeguita.ms_producto.model.mapper.ProductoMapper;
+import com.bodeguita.ms_producto.repository.CategoriaRepository;
+import com.bodeguita.ms_producto.repository.ProductoRepository;
+import com.bodeguita.ms_producto.repository.ProveedorRepository;
+import com.bodeguita.ms_producto.service.ProductoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
