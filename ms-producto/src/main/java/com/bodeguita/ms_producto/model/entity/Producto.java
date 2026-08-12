@@ -6,7 +6,11 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name = "producto")
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Producto {
 
     @Id

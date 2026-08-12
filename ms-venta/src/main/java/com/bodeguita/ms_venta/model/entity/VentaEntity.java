@@ -1,6 +1,9 @@
 package com.bodeguita.ms_venta.model.entity;
 
 import jakarta.persistence.*;
+import org.springframework.cglib.core.Local;
+
+import java.time.LocalDate;
 
 @Entity
 @Table(name="venta")
@@ -9,7 +12,7 @@ public class VentaEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String fecha;
+    private LocalDate fecha;
     private String codigo_unico;
     private double sub_total;
     private double igb;
@@ -27,11 +30,11 @@ public class VentaEntity {
         this.id = id;
     }
 
-    public String getFecha() {
+    public LocalDate getFecha() {
         return fecha;
     }
 
-    public void setFecha(String fecha) {
+    public void setFecha(LocalDate fecha) {
         this.fecha = fecha;
     }
 
