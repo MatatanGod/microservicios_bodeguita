@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/microservicios_bodeguita.iml" filepath="$PROJECT_DIR$/.idea/microservicios_bodeguita.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onfig-repo/onfig-repo.iml" filepath="$PROJECT_DIR$/onfig-repo/onfig-repo.iml" />
     </modules>
   </component>
 </project>

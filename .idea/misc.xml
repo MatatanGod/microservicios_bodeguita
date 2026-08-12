@@ -9,10 +9,13 @@
         <option value="$PROJECT_DIR$/ms-producto/pom.xml" />
         <option value="$PROJECT_DIR$/ms-proveedor/pom.xml" />
         <option value="$PROJECT_DIR$/ms-venta/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-descubridor/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="24" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="ms-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
